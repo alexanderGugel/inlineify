@@ -1,0 +1,37 @@
+{
+  "name": "inlineify",
+  "version": "0.0.1",
+  "description": "Inline code from external (source) files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "browserify -t ./index.js example/index.js"
+  },
+  "author": "Alexander Gugel <alexander.gugel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "resolve": "^1.1.6",
+    "static-module": "^1.1.2",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderGugel/inlineify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderGugel/inlineify/issues"
+  },
+  "homepage": "https://github.com/alexanderGugel/inlineify#readme",
+  "keywords": [
+    "bundle",
+    "inline",
+    "browserify-transform",
+    "browserify"
+  ]
+}
