@@ -1,6 +1,6 @@
 {
   "name": "inlineify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Inline code from external (source) files.",
   "main": "index.js",
   "scripts": {
