@@ -10,7 +10,7 @@ Install the package via npm:
 npm i inlineify
 ```
 
-Add it as a [browserify](https://github.com/substack/node-browserify) transform (also works with https://github.com/substack/watchify):
+Add it as a [browserify](https://github.com/substack/node-browserify) transform (also works with [watchify](https://github.com/substack/watchify)):
 
 ```
 browserify -t inlineify example/index.js
